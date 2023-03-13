@@ -2,27 +2,42 @@
 Big Data project using supervised and unsupervised algorithms of a Kaggle CPU and GPU Performance Dataset 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
+<!-- Table of Contents-->
+## Table Of Contents
+
+
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a>Crisp-DM methodology steps</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a>Business Understanding</a></li>
+      </ul>
+            <ul>
+        <li><a>Data Understanding</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a>Data Preparation</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a>Removing redundant columns</a></li>
+        <li><a>Simplify Date column</a></li>
+        <li><a>Delete or transform NaNs</a></li>
+        <li><a>PCA (Principal Component Analysis)</a></li>
       </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+          <li>
+      <a>Supervised Learning</a>
+      <ul>
+        <li><a>Regression problem with GLM</a></li>
+        <li><a>Regression with logaritmic data</a></li>
+        <li><a>Classification with Logistic regression</a></li>
+        <li><a>Classification with XGBoost</a></li>
+      </ul>
+               <li>
+      <a>Unsupervised Learning</a>
+      <ul>
+        <li><a>Dimensionality reduction: PCA with Process_Siz, TDP, Die_Size, Transistors, Freq (Non Scaled) / PCA with Process_Siz, TDP, Die_Size, Transistors, Freq (Scaled)</a></li>
+        <li><a>Clustering with K-Means: Agglomerative clustering with Cluster dendogram / Non-linear clustering: Spectral Clustering / Non-linear Clustering: Density Clustering</a></li>
+      </ul>       
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -44,6 +59,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Pablo Gómez - pgomezna@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/PabloGomezNa/BigDataProject_GPU-CPU.git](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
